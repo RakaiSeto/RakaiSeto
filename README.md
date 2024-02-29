@@ -1,11 +1,11 @@
-![Hi](https://github.com/revaniputeri/revaniputeri/blob/master/img/header2.png)
+![Hi](https://i.imgur.com/pctCWs1.png)
 
 ### Hi there, I'm Rakai 🍬
 
 <!-- [![Twitter Follow](https://img.shields.io/twitter/follow/revaniputeri?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/revaniputeri) -->
 [![Github Follow](https://img.shields.io/github/followers/rakaiseto?color=1DA1F2&label=Github&logo=github&style=for-the-badge)](https://github.com/revaniputeri)
 
-https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg
+(https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg)
 
 ### Connect with me
 
