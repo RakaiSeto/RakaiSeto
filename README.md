@@ -24,7 +24,7 @@
 
 <br></br>
 <!-- [![Github Stats](https://github-readme-stats.dipanjanpanja6.vercel.app/api?username=revaniputeri&show_icons=true&hide_border=true&count_private=true&theme=dark&hide=issues)](https://github.com/revaniputeri) -->
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rakaiseto&layout=compact)](https://github.com/rakaiseto)
+[![Top Langs]([https://github-readme-stats.vercel.app/api/top-langs/?username=rakaiseto&layout=compact](https://wakatime.com/share/@018cd1bc-faa7-40d1-811e-bd3b1868a015/f771fe3c-4c66-4ee9-a15e-1cec80398718.svg))](https://github.com/rakaiseto)
 <br></br>
 
 <!-- ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=revaniputeri&show_icons=true&theme=radical) -->
