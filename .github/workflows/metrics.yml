@@ -1,24 +1,34 @@
-name: Metrics
+name: Build profile assets
 
 on:
   schedule:
-    - cron: '0 0 * * 0'  # Weekly on Sunday
+    - cron: "0 */24 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
 
 jobs:
-  music:
-    runs-on: ubuntu-latest
+  generate:
     permissions:
       contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate YouTube Music widget
+        uses: daeun503/profile-music-widget@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          filename: metrics.music.svg
-          plugin_music: yes
-          plugin_music_provider: youtube
-          plugin_music_token: ${{ secrets.MUSIC_TOKEN }}
-          plugin_music_mode: playlist
-          plugin_music_playlist: https://music.youtube.com/embed/playlist?list=PL7yCXuH9eCWmP_jSvjwPXjy_oTJmjvTeg
-          plugin_music_limit: 5
+          playlist_id: PL7yCXuH9eCWmP_jSvjwPXjy_oTJmjvTeg
+          theme: default.svg
+
+      - name: Deploy dist to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
