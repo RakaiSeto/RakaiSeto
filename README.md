@@ -45,6 +45,6 @@
 ### ♫ What I'm Listening To
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RakaiSeto/RakaiSeto/output/youtube-music-widget.svg" />
+  <img src="./metrics.music.svg" />
 </p>
 
