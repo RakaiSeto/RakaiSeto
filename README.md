@@ -39,12 +39,3 @@
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=rakaiseto&theme=tokyonight&hide_border=true" />
   </a>
 </p>
-
----
-
-### ♫ What I'm Listening To
-
-<p align="center">
-  <img src="./metrics.music.svg" />
-</p>
-
